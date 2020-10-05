@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+body{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+}
+
+#calculator{
+  text-align: center;
+  width: 300px;
+  font-family: 'Oxygen Mono', monospace;
+  background-color: #51adcf;
+  padding: 5px;
+  border: 5px solid #30667a;
+  border-radius: 5px;
+  padding:15px;
+}
+
+#displayBlock{
+  background-color: gray;
+  text-align: right;
+  background-color: #eeeeee;
+  padding: 2px;
+  margin: 5px 0 15px 0 ;
+  border-radius: 2px;
+  box-shadow: 1px 1px #dedede;
+}
+
+#display{
+  font-size: 0.8rem;
+  margin: 0px;
+  padding: 3px;
+  padding-right: 10px;
+}
+
+#output{
+  font-size:1.3rem;
+  margin: 0px;
+  padding: 3px;
+  padding-right: 10px;
+}
+
+#touchpad{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+#inputElementsMain{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#inputElementsOps{
+  display: grid;
+}
+
+.key{
+  cursor: pointer;
+  background-color: #3d96b8;
+  box-shadow: 1px 1px #3184a3;
+  margin: 1px;
+  padding:15px;
+}
+
+#clear{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-color: #30667a;
+  color:white;
+}
+
+#zero{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#equals{
+   background-color: #30667a;
+   color: white;
+}
+
