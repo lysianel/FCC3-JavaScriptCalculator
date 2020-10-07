@@ -1,3 +1,13 @@
+# JavaScript Calculator
+
+Assignment made for the FreeCodeCamp Front End Libraries certification
+
+You can access the app here : https://lysianel.github.io/FCC3-JavaScriptCalculator/
+
+This project was bootstrapped with Create React App.
+
+React Doc :
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
